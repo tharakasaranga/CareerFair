@@ -300,7 +300,7 @@
                 denyButtonText: 'Employer',
             }).then((result) => {
                 if (result.isConfirmed) {
-                    window.location.href = 'student_register.php';
+                    window.location.href = 'Student_register.php';
                 } else if (result.isDenied) {
                     window.location.href = 'register_employer.php';
                 }
