@@ -80,7 +80,7 @@
         <div class="col-2 ">
           <ul class="navbar-nav ms-auto">
              <li class="nav-item h5 me-3" style="border-radius: 5px;background-color:white;"> <a href="index.php" class="nav-link active " style="color: rgb(60,4,109);">Home</a></li>
-              <li class="nav-item h5 " style="border-radius: 5px;background-color:white;"><a href="https://www.csc.jfn.ac.lk/contact-us/" class="nav-link " style="color: rgb(60,4,109);">Contacts</a></li>
+              <li class="nav-item h5 " style="border-radius: 5px;background-color:white;"><a href="contact.php" class="nav-link " style="color: rgb(60,4,109);">Contacts</a></li>
           </ul>
         </div> 
       </div>
