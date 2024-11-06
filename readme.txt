@@ -8,10 +8,6 @@ SQL File Name : careerfair.sql
 
 Technologies Used: PHP (version 8.2.12) and MySQL
 
-admin Username : admin
-
-admin password : password
-
 --------------------------------------------
 
 
