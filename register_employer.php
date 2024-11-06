@@ -143,10 +143,7 @@
                 <button type="submit">Register Company</button>
               </div>
 
-              <div class="text-center mt-3 h5">
-                Already have an accout ?
-                <a href="login.php">Sign in</a>
-              </div>
+              
 
             </form>
           </div>
