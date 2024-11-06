@@ -1,5 +1,5 @@
 <?php include('./header.php')?>
 
-<?php include('contactpage.php')?>
+<?php include('Contactpage.php')?>
 
 <?php include('./footer.php')?>
