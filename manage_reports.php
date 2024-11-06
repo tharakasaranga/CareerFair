@@ -145,7 +145,7 @@ if (isset($_POST['company_name'])) {
     <div class="container">
     <div class="drawer" id="drawer">
         <span class="close-btn" onclick="closeDrawer()">&times;</span>
-        <a href="manage_students.php"><i class="fas fa-user-graduate"></i> Manage Students</a>
+        <a href="Manage_students.php"><i class="fas fa-user-graduate"></i> Manage Students</a>
         <a href="manage_employers.php"><i class="fas fa-user-friends "></i> Manage Employers</a>
         <a href="manage_reports.php"><i class="fas fa-chart-bar"></i>Manage Reports</a>
         <a href="admindashboard.php"><i class="fas fa-user"></i> My Dashboard</a>
