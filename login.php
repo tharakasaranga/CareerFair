@@ -245,7 +245,7 @@
         cancelButtonText: 'Company'
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = 'student_register.php';
+          window.location.href = 'Student_register.php';
         } else if (result.dismiss === Swal.DismissReason.cancel) {
           window.location.href = 'register_employer.php';
         }
