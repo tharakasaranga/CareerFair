@@ -152,7 +152,7 @@
       $loginFailed = false; 
 
       if ($_SERVER["REQUEST_METHOD"] == "POST") {
-          $conn = new mysqli("localhost", "your_username", "your_password", "careerFair");
+          $conn = new mysqli("10.10.10.157", "csc210user", "CSC210!", "group4");
 
   
           if ($conn->connect_error) {
@@ -160,7 +160,7 @@
           }
 
   
-          $username = $conn->real_escape_string($_POST['urname']);
+          $username = $conn->real_escape_string($_POST['username']);
           $password = $_POST['password']; 
 
        
