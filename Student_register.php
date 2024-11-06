@@ -235,7 +235,7 @@
               </div>
               
               <div class="text-center mt-3 h5">
-                Already have an accout ?
+                Already have an account ?
                 <a href="login.php">Sign in</a>
               </div>
             </form>
