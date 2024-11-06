@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 }
 $username = $_SESSION['username'];
 
-$conn = new mysqli('localhost', 'your_username', 'your_password', 'careerFair');
+$conn = new mysqli("10.10.10.157", "csc210user", "CSC210!", "group4");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
