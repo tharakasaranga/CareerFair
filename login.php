@@ -195,7 +195,7 @@
 
       <form action="" method="POST">
         <div class="user">
-          <input type="text" name="urname" id="urname" placeholder="Username" required>
+          <input type="text" name="username" id="username" placeholder="Username" required>
         </div>
         <br>
         <div class="user">
