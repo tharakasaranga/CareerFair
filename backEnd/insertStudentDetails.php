@@ -7,7 +7,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$target_dir = "../Files/";  
+$target_dir = "http://10.10.10.157/group4/CareerFair/Files/";  
 $target_file = $target_dir . basename($_FILES["resume"]["name"]);
 $file_type = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
