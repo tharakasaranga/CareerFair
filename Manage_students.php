@@ -567,7 +567,7 @@ function updateCompanyAssignment(studentId, companyName, statusCell) {
     }
 
     function showCompanyDetails() {
-        fetch('BackEnd/get_company_details.php')
+        fetch('http://10.10.10.157/group4/CareerFair/BackEnd/get_company_details.php')
             .then(response => response.json())
             .then(data => {
                 let tableHtml = '<table border="1" style="width:100%; text-align:left;"><tr><th>Company Name</th><th>Industry</th></tr>';
