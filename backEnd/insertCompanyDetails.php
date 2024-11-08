@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contact_person_position = $conn->real_escape_string(trim($_POST['contact_person_position']));
 
     $logo = $_FILES['logo']['name'];
-    $target_dir = __DIR__ . "/../uploads/";
+    $target_dir = __DIR__ . "http://10.10.10.157/group4/CareerFair/uploads/";
     $target_file = $target_dir . basename($logo);
 
     if (!is_dir($target_dir)) {
